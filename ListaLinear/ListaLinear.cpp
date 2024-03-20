@@ -122,9 +122,30 @@ void inserirElemento()
 
 void excluirElemento()
 {
+	int valor;
+	cout << "Digite um numero: ";
+	cin >> valor;
+	int pos = posicaoElemento(valor);
 
+	int main; {
+		int arr[12] = { 1,1,1,2,2,6,7,8,9,10 };
+		int elem_to_remove = 2;
+	}
+	for (int i = 0; i < nElementos; ++i) {
 
+	}
+
+	if (pos != 0) {
+		cout << "O numero foi deletado" << pos << endl;
+
+	}
+	else {
+		cout << "O numero digitado nao foi encontrado." << endl;
+	}
 }
+
+
+
 
 void buscarElemento()
 {
